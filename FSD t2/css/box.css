@@ -1,0 +1,44 @@
+#box1 {
+    background-color: yellow;
+    /* border-style: groove; */
+    border: 6px;
+    border-style: dotted;
+    border-top-style: groove;
+    border-left-style: double;
+    border-right-style: dashed;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    border-color: blue;
+    border-right-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    float: left;
+}
+
+#out {
+    border: 6px;
+    border-style: dotted;
+    border-top-style: groove;
+    border-left-style: double;
+    border-right-style: dashed;
+    height: 500px;
+    width: 500px;
+    clear: right;
+    float: left;
+}
+
+#box2 {
+    border: 5px dashed white;
+    /* shorthand */
+    width: 500px;
+    background-color: skyblue;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+    clear: both;
+}

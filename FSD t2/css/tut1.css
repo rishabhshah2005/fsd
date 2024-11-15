@@ -1,0 +1,16 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 20;
+    color: crimson;
+    background-color: #d88033;
+    align-content: center;
+}
+h2 {
+    background-color: gold;
+    color:rgb(45, 110, 32);
+}

@@ -1,0 +1,55 @@
+div.upper {
+    background-color: red;
+}
+
+.upper {
+    background-color: rgb(130, 174, 187);
+}
+
+ol b {
+    color: red;
+}
+
+ol li{
+    color: yellow;
+}
+ol>li{
+    color: green;
+}
+
+* {
+    padding: 10px;
+}
+
+div.lower {
+    background-color: rgb(255, 4, 234);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.lower:hover {
+    background-color: rgb(44, 165, 245);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lower {
+    background-color: rgb(42, 4, 255);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    background-color: yellow;
+}
+
+#third {
+    color: lime;
+}
+
+.alter {
+    background-color: yellow;
+}
+
+.alter {
+    background-color: green;
+}
