@@ -1,0 +1,54 @@
+#container {
+    border: 3px solid black;
+    height: 600px;
+    width: 600px;
+    /* align-content: center; */
+}
+
+#a {
+    font-size: 40px;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    transform: translate(100px, 100px);
+    align-content: center;
+    text-align: center;
+}
+
+#a:hover {
+    border: 3px solid black;
+    font-size: 40px;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    transform: translate(100px, 100px) rotatey(360deg) scale(1.1);
+    transition: 5000ms;
+    transition-timing-function: ease-out;
+    background-color: purple;
+}
+
+#b {
+    font-size: 40px;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    transform: translate(300px, 150px);
+    align-content: center;
+    text-align: center;
+    transition: 1000ms;
+}
+
+#b:hover {
+    border: 10px dotted white;
+    font-size: 40px;
+    font-family: cursive;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    transform: translate(300px, 150px) skewX(30deg);
+    transition: 1000ms;
+    transition-delay: 500ms;
+    transition-property: all;
+}

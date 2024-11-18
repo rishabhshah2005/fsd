@@ -21,17 +21,101 @@
     width: 200px;
     border: 2px solid purple;
     float: left;
-    clear: left;
     margin: 20px;
     background-image: linear-gradient(violet, indigo, blue, green, yellow, orange, red);
 }
 
-#d {
+#d1 {
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    padding: auto;
+    align-content: center;
+    float: left;
+    clear: left;
+}
+
+#d2 {
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    padding: auto;
+    align-content: center;
+    float: left;
+    clear: left;
+}
+
+#d3 {
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    padding: auto;
+    align-content: center;
+    float: left;
+    clear: left;
+}
+
+#angled {
     height: 200px;
     width: 200px;
-    border: 2px solid purple;
-    float: left;
-
     margin: 20px;
-    background-image: linear-gradient(to bottom right, red, green, blue);
+    float: left;
+    border: 3px solid black;
+    background-image: linear-gradient(to bottom left, red, yellow 50%);
+}
+
+#repeating {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: repeating-linear-gradient(green, blue 20%);
+
+}
+
+#repeating-radial {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: repeating-radial-gradient(black, yellow 15%);
+
+}
+
+#test1 {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: repeating-conic-gradient(blue, cyan 10%);
+
+}
+
+#test2 {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: conic-gradient(blue, cyan);
+
+}
+#test3 {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: conic-gradient(red 90deg, yellow 90deg, yellow 180deg, blue 90deg, blue 270deg, green 90deg);
+}
+#test4 {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    border: 3px solid black;
+    background-image: conic-gradient(purple 45deg, lime 45deg, lime 90deg, purple 90deg, purple 135deg, lime 135deg, lime 180deg, purple 180deg, purple 225deg, lime 225deg, lime 270deg, purple 270deg, purple 315deg, lime 315deg);
 }
