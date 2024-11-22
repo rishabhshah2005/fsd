@@ -1,0 +1,67 @@
+#a {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: ball;
+    animation-duration: 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50%;  /* Making the div round, for a ball-like effect */
+}
+
+#a .text {
+    position: relative;
+    animation-name: revr;
+    animation-duration: 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1;  /* Ensure the text stays above the rotating container */
+    text-align: center;
+    transform: translate(0,0) rotate(-360deg); /* Prevent the text from rotating */
+}
+@keyframes revr {
+    0% {
+
+        transform: rotate(0deg); /* No rotation initially */
+    }
+    50% {
+
+        transform:rotate(-180deg); /* Rotate halfway */
+
+    }
+    100% {
+        transform: rotate(-360deg); /* Complete rotation */
+    }
+}
+
+@keyframes ball {
+    0% {
+        background-color: lime;
+        transform: translate(0, 0) rotate(0deg); /* No rotation initially */
+    }
+    50% {
+        font-size: 30px;
+        background-color: red;
+        border-style: dashed;
+        border-width: 8px;
+        transform: translate(100px, 0) rotate(180deg); /* Rotate halfway */
+        border-radius: 200px;
+    }
+    100% {
+        background-color: purple;
+        transform: translate(200px, 0) rotate(360deg); /* Complete rotation */
+    }
+}
+
+#a:hover {
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    border: 3px solid black;
+}
