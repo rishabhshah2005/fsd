@@ -1,0 +1,12 @@
+@media all and (max-width: 500px){
+    .cols {
+        columns: 4;
+        column-rule-style: dotted;
+    }
+}
+@media all and (min-width: 500px){
+    .cols {
+        columns: 8;
+        column-rule-style: dotted;
+    }
+}

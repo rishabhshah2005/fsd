@@ -1,0 +1,20 @@
+.pagination {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: orange;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.pagination a.active {
+    background-color: red;
+}

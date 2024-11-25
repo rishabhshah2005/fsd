@@ -1,0 +1,18 @@
+#user:hover{
+    background-color: yellow;
+}
+#pass:hover{
+    background-color: pink;
+}
+
+.sport:active{
+    color: red;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+}
+
+.buts:hover{
+    background-color: blue;
+}
