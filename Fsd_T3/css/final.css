@@ -1,0 +1,15 @@
+.card {
+    /* float: left; */
+    margin: 10px;
+}
+
+.jumbotron {
+    /* float: left; */
+    margin: 10px;
+}
+
+.row {
+    margin: 10px;
+    align-content: center;
+
+}

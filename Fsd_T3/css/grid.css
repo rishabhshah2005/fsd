@@ -1,0 +1,12 @@
+[class*="col"] {
+    background-color: cyan;
+    /* margin: 10px; */
+    border-radius: 10px;
+
+}
+
+.row {
+    background-color: purple;
+    margin: 10px;
+
+}

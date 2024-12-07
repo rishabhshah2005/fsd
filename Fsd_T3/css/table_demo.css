@@ -1,0 +1,28 @@
+table * {
+    border: 2px solid black;
+}
+
+#murica tr:nth-of-type(odd) td:nth-of-type(even) {
+    background-color: red;
+    /* border: 5px double white; */
+}
+
+#murica tr:nth-of-type(odd) td:nth-of-type(odd) {
+    background-color: blue;
+    /* border: 5px double white; */
+}
+
+#murica tr:nth-of-type(even) td:nth-of-type(odd) {
+    background-color: red;
+}
+
+
+#murica tr:nth-of-type(even) td:nth-of-type(even) {
+    background-color: blue;
+
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
