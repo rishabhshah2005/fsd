@@ -1,0 +1,4 @@
+Algorithms such as Local Search (Tabu Search, Simulated Annealing, Late Acceptance)
+work very well on such problems.
+
+As Bob suggests, if you're working in Java, take a look at OptaPlanner (open source). See this video on employee rostering.
