@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbuilt</title>
+</head>
+
+<body>
+    <h1>
+        Math class
+    </h1>
+    <script>
+        document.write("Math.pow(2,12): " + Math.pow(2, 12));
+        document.write("<br>Math.floor(2.12): " + Math.floor(2.12));
+        document.write("<br>Math.ceil(2.12): " + Math.ceil(2.12));
+        document.write("<br>Math.cos(45): " + Math.cos(Math.PI / 3));
+        document.write("<br>Math.tan(90): " + Math.tan(Math.PI / 2));
+        document.write("<br>Math.acos(0.5): " + Math.acos(0.5) * (180 / Math.PI));
+        document.write("<br>Math.asin(0.5): " + Math.asin(0.5) * (180 / Math.PI));
+        document.write("<br>Math.random(): " + Math.random());
+    </script>
+    <h1>
+        String class
+    </h1>
+    <script>
+        let str = "Hi i am Rishabh"
+        document.write("str.length: " + str.length)
+        document.write("<br>str.lastIndexOf('R'): " + str.lastIndexOf("R"))
+        document.write(`<br>str.includes("rishabh"): ` + str.includes("rishabh"))
+        document.write(`<br>str.includes("Rishabh"): ` + str.includes("Rishabh"))
+    </script>
+    <h1>
+        Date class
+    </h1>
+    <script>
+        let d = new Date()
+        document.write("d: " + d)
+        document.write("<br>d.getDate(): " + d.getDate())
+        document.write("<br>d.getDay(): " + d.getDay())
+        document.write("<br>d.getMonth(): " + d.getMonth())
+        document.write("<br>d.getFullYear(): " + d.getFullYear())
+        document.write("<br>d.getHours(): " + d.getHours())
+        document.write("<br>d.getMinutes(): " + d.getMinutes())
+        document.write("<br>d.getSeconds(): " + d.getSeconds())
+        document.write("<br>d.toDateString(): " + d.toDateString())
+        let alr = confirm("hello whassup")
+        document.write("<br>" + alr)
+    </script>
+    <p>
+        practice how many days until your birthday programs
+    </p>
+</body>
+
+</html>
