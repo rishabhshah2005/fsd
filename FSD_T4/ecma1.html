@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecma1</title>
+</head>
+
+<body>
+    <script>
+        const arr1 = [1, 2]
+        const arr2 = [...arr1, 3, 5]
+        document.write(arr2)
+        const add = (a, b) => {
+            return a + b
+        }
+        document.write(`<br>Addition of 2 no is ${add(10, 20)}`)
+
+        const add2 = (...args) => {
+            let sum = 0
+            for (const element of args) {
+                sum += element
+            }
+            return sum
+        }
+        document.write(`<br>Addition of arr is ${add2(10, 20, 30, 50)}`)
+
+        const add3 = (a = 10, b = 5) => {
+            return a + b
+        }
+        document.write(`<br>Addition of arr is ${add3(10)}`)
+
+        // write a es6 fxn to be called on button click
+        // take one div with some text and no decor initially 
+        // take font size and style as default args and pass bg color and text color while calling func
+        // div should change style when clicked
+
+        const changeDiv = (bg, txt, fnt) => {
+            d = document.getElementById("a")
+            d.style.backgroundColor = bg
+            d.style.color = txt
+            d.style.fontFamily = fnt
+        }
+
+        const srt = (...args) => {
+            let sum = []
+            while (args.length != 0) {
+                let lowest;
+                for (const e of args) {
+                    if (lowest == undefined) {
+                        lowest = e
+                    }
+                    else {
+                        if (lowest>=e) {
+                            lowest = e
+                        }
+                    }
+                }
+                console.log(lowest)
+                sum.push(lowest)
+                args.splice(args.indexOf(lowest), 1)
+            }
+            return sum
+
+        }
+        document.write("<br>this is the sorted array: " + srt("a", "c", "b", "g", "d"))
+
+        class Student {
+            constructor(f,n){
+                self.fname = f;
+                self.age = n;
+            }
+
+            display = () =>
+            {
+                console.log("This is display")
+            }
+        }
+    </script>
+
+    <div id="a" style="height: 100px; width: 300px;">
+        This is some text in the div
+    </div>
+    <br>
+    <button onclick="changeDiv('red', 'white', 'cursive')">change</button>
+</body>
+
+</html>
